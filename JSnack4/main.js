@@ -6,7 +6,6 @@ let string3 = []
 function mixer(stringA,stringB,stringC){
 if(stringA.length == stringB.length){
 
-
     for(let i = 0; i < string1.length; i++){
         stringC.push(string1[i])
         stringC.push(string2[i])
