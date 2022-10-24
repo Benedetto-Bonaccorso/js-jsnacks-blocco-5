@@ -2,6 +2,8 @@ let string1 = ["a","b","c"]
 let string2 = ["a","b","c"]
 let string3 = []
 
+
+function mixer(){
 if(string1.length == string2.length){
 
 
@@ -11,4 +13,7 @@ if(string1.length == string2.length){
     }
 
     console.log(string3)
+    }
 }
+
+mixer()
