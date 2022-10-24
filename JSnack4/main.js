@@ -3,17 +3,17 @@ let string2 = ["a","b","c"]
 let string3 = []
 
 
-function mixer(){
-if(string1.length == string2.length){
+function mixer(stringA,stringB,stringC){
+if(stringA.length == stringB.length){
 
 
     for(let i = 0; i < string1.length; i++){
-        string3.push(string1[i])
-        string3.push(string2[i])
+        stringC.push(string1[i])
+        stringC.push(string2[i])
     }
 
-    console.log(string3)
+    console.log(stringC)
     }
 }
 
-mixer()
+mixer(string1,string2,string3)
